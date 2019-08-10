@@ -1,0 +1,38 @@
+/* Reset */
+
+* {margin: 0; padding: 0; font-size: 100%; font-family: 'open sans', sans-serif; font-weight: normal; 
+box-sizing: border-box; border: none;outline: none;}
+img {max-width: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2{font-size: 1.5em; color: #333;}
+p {font-size: 1em; color: #777;}
+
+/*cabecalho*/
+.cabecalho {width: 100%; float: left; padding: 50px 8%; background-color: #13c7ae;}
+.cabecalho form {width: 30%; float: right;}
+.cabecalho input [type= "text"] {width: 85%; float: left; padding: 15px 10px;}
+.cabecalho button {width: 15%; float: right;padding: 15px 10px; background-color: black; cursor: pointer;}
+
+/*menu*/
+.menu {width: 100%; float: left;background-color: #111;padding: 18px 8%;}
+.menu li {float: left;}
+.menu li a {color: #9d9d9d;margin-right: 25px;}
+.menu li a:hover {color: #fff;}
+/*principal*/
+.principal {width: 100%; float: left;padding: 20px 8%;}
+.sobre {width: 70%; float: left; padding: 0 20px 20px 0;}
+.sobre h2 {margin-bottom: 15px;}
+/*aside*/
+.onde-estamos {width: 30%; float: right; padding: 10px 20px; background-color: #f5f5f5; border-radius: 5px;}
+
+
+
+/*comentário em css */
+
+h2 {color: blue; font-size: 20px; font-family:tahoma; text-shadow:3px 3px 3px red} /*colocar direto na tag, basta informar a tag, exemplo h2 - podemos usar a formatação para várias tag juntas (h2 , h3, etc...*/
+
+.texto-principal {color:red; text-align:center;} /*quando usado a class, colocamos iniciando com o ponto (.)*/
+
+#conteudo {background-color:blue; color:white;} /*quando usado a id, colocamos iniciando com o jogo da velha (#)*/
+
